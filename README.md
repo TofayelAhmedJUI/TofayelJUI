@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Noto Sans Bengali', sans-serif;
-      background-color: #f3f4f6;
+      background-color: #f9fafb;
       margin: 0;
       padding: 0;
       color: #1f2937;
@@ -17,28 +17,35 @@
       color: white;
       text-align: center;
       padding: 30px 15px;
-      border-bottom: 4px solid #0d9488;
     }
     header h1 {
       margin: 0;
-      font-size: 2em;
+      font-size: 2.2em;
     }
-    .section {
-      background-color: white;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 12px;
-      max-width: 800px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 40px 20px;
     }
-    h2 {
-      color: #0f766e;
-    }
-    iframe {
-      width: 100%;
-      height: 450px;
-      border: none;
+    .link {
+      background-color: #10b981;
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
       border-radius: 10px;
+      margin: 10px;
+      font-size: 1.2em;
+      transition: 0.3s;
+    }
+    .link:hover {
+      background-color: #059669;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin: 40px 0 20px;
+      color: #6b7280;
     }
   </style>
 </head>
@@ -46,18 +53,20 @@
 
   <header>
     <h1>তোফায়েল আহমদ JUI</h1>
-    <p>ইলম ও প্রযুক্তির মেলবন্ধন</p>
+    <p>আমার সোশ্যাল মিডিয়া লিংকসমূহ</p>
   </header>
 
-  <div class="section">
-    <h2>🕌 লাইভ নামায সময় – সিলেট</h2>
-    <iframe src="https://www.islamicfinder.org/prayer-widget/?country=bd&city=sylhet"></iframe>
+  <div class="links">
+    <a class="link" href="tel:+8801571209460" target="_blank">📞 মোবাইলে কল দিন</a>
+    <a class="link" href="https://facebook.com/TofayelAhmedJUI" target="_blank">📘 Facebook পেজ</a>
+    <a class="link" href="https://x.com/TofayelAhmedJUI" target="_blank">🐦 X (Twitter)</a>
+    <a class="link" href="https://youtube.com/@TofayelAhmedJUI" target="_blank">▶️ YouTube চ্যানেল</a>
+    <a class="link" href="mailto:mimtofayel@gmail.com" target="_blank">📧 ইমেইল করুন</a>
   </div>
 
-  <div class="section">
-    <h2>💬 পরিচিতি</h2>
-    <p>আসসালামু আলাইকুম! আমি তোফায়েল আহমদ, কওমি মাদরাসার একজন শিক্ষার্থী ও ওয়েব-প্রযুক্তি অনুরাগী। এই সাইটে ইনশাআল্লাহ আপনি পাবেন বাংলা, আরবি, ইংরেজি ও উর্দু ভাষায় ইসলামী, প্রযুক্তি ও শিক্ষামূলক কনটেন্ট।</p>
-  </div>
+  <footer>
+    &copy; ২০২৫ তোফায়েল আহমদ JUI | ডিজাইন করেছেন নিজেই 😊
+  </footer>
 
 </body>
 </html>
